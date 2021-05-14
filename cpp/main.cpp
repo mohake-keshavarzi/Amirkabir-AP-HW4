@@ -1,12 +1,13 @@
 #include <iostream>
 #include "gtest/gtest.h"
 
-#include "square.h"
+#include "rectangle.h"
+
 int main(int argc, char **argv)
 {
-Square x{5};
+Rectangle x{5,3};
 x.disp();
-Square y{6};
+Rectangle y{5.2,8};
 y.disp();
 
 /*
