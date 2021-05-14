@@ -9,7 +9,7 @@ Rectangle::Rectangle(double l, double w):
 
 double Rectangle::perimeter()  
 {
-    return pow(length*length+width*width,0.5);
+    return 2*(length+width);
 }
 
 double Rectangle::area()

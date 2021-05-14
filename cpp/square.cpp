@@ -7,7 +7,7 @@ Square:: Square(double s):_2Dshape{"square", 4} , side{s}
 
 double Square::perimeter()  
 {
-    return side*pow(2,0.5);
+    return 4*side;
 }
 
 double Square::area()
