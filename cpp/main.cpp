@@ -1,16 +1,19 @@
 #include <iostream>
 #include "gtest/gtest.h"
 
-#include "rectangle.h"
+//#include "prism.h"
+//#include "square.h"
+
 
 int main(int argc, char **argv)
 {
-Rectangle x{5,3};
-x.disp();
-Rectangle y{5.2,8};
-y.disp();
-
 /*
+Square x{10};
+x.disp();
+
+Prism pr{7,&x};
+std::cout<<pr<<std::endl;
+*/
     ::testing::InitGoogleTest(&argc, argv);
     std::cout << "RUNNING TESTS ..." << std::endl;
     int ret{RUN_ALL_TESTS()};
@@ -19,6 +22,6 @@ y.disp();
     else
         std::cout << "FAILED" << std::endl;
     return 0;
-*/
+
 }
 

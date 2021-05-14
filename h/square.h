@@ -7,6 +7,7 @@
 class Square : public _2Dshape
 {
 public:
+    friend class Pyramid;
     Square(double s);
     void disp() override;
     double perimeter() override;

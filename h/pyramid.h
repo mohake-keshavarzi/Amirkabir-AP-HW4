@@ -12,6 +12,11 @@ public:
     double area() override;
     friend std::ostream& operator<<(std::ostream& os, const Pyramid& p);
 
+    ~Pyramid();
+    Pyramid(const Pyramid& pr);
+    Pyramid& operator=(const Pyramid& pr);
+    Pyramid& operator=(Pyramid&& pr);
+    
 private:
     char* pharaoh;
 };

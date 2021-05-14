@@ -21,4 +21,4 @@ std::ostream& operator<<(std::ostream& os, const Prism& p)
 {
          std::cout<<"base of prism is "<<p.type<<" and its height is "<<p.height;
          return os;
-};
+}

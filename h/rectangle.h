@@ -4,9 +4,10 @@
 #include <iostream>
 #include "2Dshape.h"
 
-class Rectangle : public _2Dshape
+ class  Rectangle final : public _2Dshape 
 {
 public:
+    friend class Pyramid; 
     Rectangle(double l, double w);
     void disp() override;
     double perimeter() override;

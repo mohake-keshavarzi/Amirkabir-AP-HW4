@@ -10,7 +10,7 @@
 namespace
 {
 
-/*
+
 TEST(APHW4Test, Test1)
 {
     Triangle t{8, 5};
@@ -34,9 +34,12 @@ TEST(APHW4Test, Test3)
     Pyramid p1{3 , &t, 1};
     Rectangle r{6, 4};
     Pyramid p2{4, &r, 2};
+    
+std::cout<<p1.area()<<"            I am here!!!!!!!"<<std::endl;
+
     EXPECT_EQ(true, (p1.area() > 38)&&(p1.area() < 38.3));   //ans: 38.18
     EXPECT_EQ(true, (p2.area() < 71)&&(p2.area() > 70.5));   //ans: 70.83
     EXPECT_EQ(true, (p2.volume() == 32));   
 }
-*/
+
 }

@@ -7,6 +7,7 @@
 class Triangle : public _2Dshape
 {
 public:
+    friend class Pyramid;
     Triangle(double b, double s);
     void disp() override;
     double perimeter() override;
